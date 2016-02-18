@@ -8,7 +8,7 @@ set tabstop=2
 set ruler        " 顯示右下角設定值
 set relativenumber
 set cursorline
-colorscheme desert " 配色
+colorscheme moloki " 配色
 
 " NERDTree
 nmap <F12> :NERDTree<CR>
