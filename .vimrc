@@ -14,16 +14,16 @@ colorscheme desert " 配色
 nmap <F12> :NERDTree<CR>
 
 " new tab
-nmap <C-t><C-t> :tabnew<CR> 
+ nmap <C-t><C-t> :tabnew<CR> 
 
 " close tab
-nmap <C-t><C-w> :tabclose<CR>
+ nmap <C-t><C-w> :tabclose<CR>
 
 " move windwos
-nmap <C-K> <C-W><C-K>
-nmap <C-J> <C-W><C-J>
-nmap <C-H> <C-W><C-H>
-nmap <C-L> <C-W><C-L>
+ nmap <C-K> <C-W><C-K>
+ nmap <C-J> <C-W><C-J>
+ nmap <C-H> <C-W><C-H>
+ nmap <C-L> <C-W><C-L>
 
 " set [vundle]
 set nocompatible              " be iMproved, required
