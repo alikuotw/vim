@@ -25,6 +25,9 @@ nmap <C-J> <C-W><C-J>
 nmap <C-H> <C-W><C-H>
 nmap <C-L> <C-W><C-L>
 
+" quit and save
+nmap <S-L><S-Q> :qall!<CR>
+
 " set [vundle]
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -35,7 +38,6 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'artur-shaik/vim-javacomplete2'
 
 call vundle#end()
 filetype plugin indent on     " required!
