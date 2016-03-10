@@ -3,8 +3,8 @@ set encoding=utf-8
 syntax on        " 語法上色顯示
 set ai           " 自動縮排
 set expandtab	   " 用space代替tab
-set shiftwidth=2 " 縮排數量
-set tabstop=2
+set shiftwidth=4 " 縮排數量
+set tabstop=4
 set ruler        " 顯示右下角設定值
 set relativenumber
 set cursorline
@@ -14,10 +14,10 @@ colorscheme moloki " 配色
 nmap <F12> :NERDTree<CR>
 
 " new tab
-nmap <C-t><C-t> :tabnew<CR> 
-
-" close tab
-nmap <C-t><C-w> :tabclose<CR>
+map <C-n> :tabnext<CR> 
+map <C-b> :tabprevious<CR>
+map <C-t> :tabnew<CR>
+map <C-w> :tabclose<CR>
 
 " move windwos
 nmap <C-K> <C-W><C-K>
@@ -25,8 +25,19 @@ nmap <C-J> <C-W><C-J>
 nmap <C-H> <C-W><C-H>
 nmap <C-L> <C-W><C-L>
 
-" quit and save
-nmap <S-L><S-Q> :qall!<CR>
+" save
+nmap <S-w> :w<CR>      
+nmap <S-x><S-w> :wq<CR>
+" exit
+nmap <S-q> :q!<CR>
+nmap <S-x><S-q> :qall!<CR>
+
+" left shift
+imap <S-Tab> <C-d>
+
+" compile
+
+
 
 " set [vundle]
 set nocompatible              " be iMproved, required
@@ -38,6 +49,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'aperezdc/vim-template'
 
 call vundle#end()
 filetype plugin indent on     " required!
