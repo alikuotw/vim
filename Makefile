@@ -1,6 +1,6 @@
 main:	
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-	ln -s ~/.vim/.vimrc ~/.vimrc
+	ln -f ~/.vim/.vimrc ~/.vimrc
 	vim +PluginInstall +qall
 	
 	@echo "*************************"
