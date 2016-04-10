@@ -4,7 +4,7 @@ main:
 	vim +PluginInstall +qall
 	
 	@echo "*************************"
-	@echo "*    			       *"
+	@echo "*    		       *"
 	@echo "*      Complete !!      *"
-	@echo "*    			       *"
+	@echo "*    		       *"
 	@echo "*************************"
