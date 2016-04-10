@@ -3,4 +3,8 @@ main:
 	ln -s ~/.vim/.vimrc ~/.vimrc
 	vim +PluginInstall +qall
 	
-	@echo "Complete."
+	@echo "*************************"
+	@echo "*    			       *"
+	@echo "*      Complete !!      *"
+	@echo "*    			       *"
+	@echo "*************************"
