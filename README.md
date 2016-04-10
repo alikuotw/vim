@@ -1,9 +1,7 @@
-My MacBook Pro VIM Setting
+1. Set up vim config:
+    
+    $ git clone https://github.com/alikuotw/vim ~/.vim
 
----------------------------
-
-Install Vundle
-
-https://github.com/VundleVim/Vundle.vim
-
-PluginInstall & PluginClean
+2. Makefile
+    
+    $ make
