@@ -36,7 +36,7 @@ nmap <S-x><S-q> :qall!<CR>
 imap <S-Tab> <C-d>
 
 " compile
-
+map <S-F5><S-P> :!python %<CR>
 
 
 " set [vundle]
