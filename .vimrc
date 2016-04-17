@@ -17,13 +17,14 @@ nmap <F12> :NERDTree<CR>
 map <C-n> :tabnext<CR> 
 map <C-b> :tabprevious<CR>
 map <C-t> :tabnew<CR>
-map <C-w> :tabclose<CR>
+map <C-e> :tabclose<CR>
 
 " move windwos
-nmap <C-K> <C-W><C-K>
-nmap <C-J> <C-W><C-J>
-nmap <C-H> <C-W><C-H>
-nmap <C-L> <C-W><C-L>
+map <C-k> <C-w>k
+map <C-j> <C-w>j
+map <C-h> <C-w>h
+map <C-l> <C-w>l
+nnoremap <Tab> <c-w>w
 
 " save
 nmap <S-w> :w<CR>      
