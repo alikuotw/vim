@@ -33,9 +33,6 @@ nmap <S-x><S-w> :wq<CR>
 nmap <S-q> :q!<CR>
 nmap <S-x><S-q> :qall!<CR>
 
-" left shift
-imap <S-Tab> <C-d>
-
 " compile
 map <S-F5><S-P> :!python %<CR>
 
@@ -51,7 +48,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'aperezdc/vim-template'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on     " required!
