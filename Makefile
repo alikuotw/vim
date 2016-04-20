@@ -1,4 +1,4 @@
-main: $(Vundle)
+main:
 	ln -f ~/.vim/.vimrc_base ~/.vimrc
 	@echo "*************************"
 	@echo "*                       *"
@@ -8,13 +8,13 @@ main: $(Vundle)
 
 
 Vundle=~/.vim/bundle/Vundle.vim
-install:
+install: $(Vundle)
 	vim +PluginClean +qall
 	vim +PluginInstall +qall
 
 	@echo "*************************"
 	@echo "*                       *"
-	@echo "*      Complete !!      *"
+	@echo "*   Complete Install    *"
 	@echo "*                       *"
 	@echo "*************************"
 
@@ -22,7 +22,7 @@ $(Vundle):
 	@echo "Vundle will not find ready to install"; \
 	if [ ! -d "$(Vundle)" ]; then \
 		git clone https://github.com/VundleVim/Vundle.vim.git $(Vundle); \
-	fi@echo "*************************"
+	fi
 
 custom:
 	ln -f ~/.vim/.vimrc_custom ~/.vimrc
