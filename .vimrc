@@ -49,10 +49,19 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Vundle
 Plugin 'VundleVim/Vundle.vim'
+
+" Nerdtree
 Plugin 'scrooloose/nerdtree'
+
+" VIM Template
 Plugin 'aperezdc/vim-template'
-"Plugin 'Valloric/YouCompleteMe'
+
+" YouCompleteMe
+" Plugin 'Valloric/YouCompleteMe'
+" let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py' " default setting
+" let g:ycm_confirm_extra_conf = 0 " don't confrim
 
 call vundle#end()
 filetype plugin indent on     " required!
