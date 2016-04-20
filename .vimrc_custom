@@ -1,0 +1,9 @@
+" put your custom setting in this file
+
+source ~/.vim/.vimrc_base
+
+" YouCompleteMe
+Plugin 'Valloric/YouCompleteMe'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py' " default setting
+let g:ycm_confirm_extra_conf = 0 " don't confrim
+let g:ycm_python_binary_path = '/usr/bin/python3'

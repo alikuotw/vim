@@ -2,6 +2,10 @@
     
     $ git clone https://github.com/alikuotw/vim ~/.vim
 
-2. Makefile
+2. make (can choice custom or not)
     
-    $ make
+    $ make (or make custom)
+
+3. install
+    
+    $ make install
