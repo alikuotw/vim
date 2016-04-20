@@ -7,6 +7,7 @@ set shiftwidth=4 " 縮排數量
 set tabstop=4
 set ruler        " 顯示右下角設定值
 set relativenumber
+set number
 set cursorline
 colorscheme moloki " 配色
 
@@ -32,6 +33,9 @@ nmap <S-x><S-w> :wq<CR>
 " exit
 nmap <S-q> :q!<CR>
 nmap <S-x><S-q> :qall!<CR>
+" paste
+nmap <S-p>1 :set paste<CR>
+nmap <S-p>2 :set nopaste<CR>
 
 " compile
 map <S-F5><S-P> :!python %<CR>
