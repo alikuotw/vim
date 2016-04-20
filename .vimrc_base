@@ -9,7 +9,7 @@ set ruler        " 顯示右下角設定值
 set relativenumber
 set number
 set cursorline
-colorscheme moloki " 配色
+colorscheme molokai " 配色
 
 " NERDTree
 nmap <F12> :NERDTree<CR>
