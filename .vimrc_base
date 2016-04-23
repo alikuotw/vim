@@ -38,7 +38,7 @@ nmap <S-p>1 :set paste<CR>
 nmap <S-p>2 :set nopaste<CR>
 
 " compile
-map <S-F5><S-P> :!python %<CR>
+map <S-F5><S-P> :!python3 %<CR>
 
 
 " set [vundle]
