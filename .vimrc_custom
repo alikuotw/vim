@@ -4,9 +4,11 @@ source ~/.vim/.vimrc_base
 
 " YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
+
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py' " default setting
 let g:ycm_confirm_extra_conf = 0 " don't confrim
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
 "
 " Django Setting
 let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
