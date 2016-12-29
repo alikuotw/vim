@@ -1,6 +1,6 @@
 set encoding=utf-8
 
-syntax on        " 語法上色顯示
+syntax on 
 set ai           " 自動縮排
 set expandtab	   " 用space代替tab
 set shiftwidth=4 " 縮排數量
@@ -54,9 +54,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Nerdtree
 Plugin 'scrooloose/nerdtree'
-
-" VIM Template
-Plugin 'aperezdc/vim-template'
 
 call vundle#end()
 filetype plugin indent on     " required!
