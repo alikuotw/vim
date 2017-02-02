@@ -10,6 +10,7 @@ set relativenumber
 set number
 set cursorline
 colorscheme molokai " 配色
+autocmd FileType robot colorscheme robot " for robot colorscheme
 
 " NERDTree
 nmap <F12> :NERDTree<CR>
