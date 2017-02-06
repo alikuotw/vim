@@ -15,11 +15,12 @@ autocmd BufEnter *.robot colorscheme robot
 " NERDTree
 nmap <F12> :NERDTree<CR>
 
-" new tab
+" for tab
 map <C-n> :tabnext<CR> 
 map <C-b> :tabprevious<CR>
 map <C-t> :tabnew<CR>
 map <C-e> :tabclose<CR>
+inoremap <S-tab> <C-d>
 
 " move windwos
 map <C-k> <C-w>k
@@ -40,6 +41,7 @@ nmap <S-p>2 :set nopaste<CR>
 
 " compile
 map <S-F5><S-P> :!python3 %<CR>
+map <F4> :!robot -d ./output %<CR>
 
 
 " set [vundle]
