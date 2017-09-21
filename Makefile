@@ -46,5 +46,5 @@ all:
 	chsh -s `which zsh`
 	@echo "Change to rkj theme"
 	vim -c "%s/robbyrussell/rkj/g" -c wq ~/.zshrc
-	source ~/.zshrc
+	zsh
 	@echo "FINISH."
