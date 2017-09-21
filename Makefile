@@ -34,6 +34,9 @@ custom:
 	@echo "*                       *"
 	@echo "*************************"
 
+all:
+	make && make install
+
 #$(VIM):
 #	if [ ! -d "$(VIM)" ]; then \
 		mkdir $(VIM); \
