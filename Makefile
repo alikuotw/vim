@@ -37,11 +37,5 @@ all:
 	sudo apt-get install zsh -y
 	sh -c '(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)'
 	chsh -s `which zsh`
-
-
-#$(VIM):
-#	if [ ! -d "$(VIM)" ]; then \
-		mkdir $(VIM); \
-		git clone https://github.com/alikuotw/vim.git $(VIM)/vim; \
-	fi
-	
+	vim -c "%s/robbyrussell/rkj/g" -c wq ~/.zshrc
+	source ~/.zshrc
