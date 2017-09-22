@@ -35,6 +35,8 @@ custom:
 all:
 	sudo apt-get install zsh -y
 	wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
-	sh install.sh && rm install.sh &
+	sh install.sh && rm install.sh
+
+theme:
 	vim -c "%s/robbyrussell/rkj/g" -c wq ~/.zshrc
 	chsh -s `which zsh` && zsh
