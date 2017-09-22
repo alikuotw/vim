@@ -42,9 +42,9 @@ all:
 	sh install.sh &
 	@echo "Remove install file"
 	rm install.sh
-	@echo "Set default shell"
-	chsh -s `which zsh`
 	@echo "Change to rkj theme"
 	vim -c "%s/robbyrussell/rkj/g" -c wq ~/.zshrc
-	zsh
+	zsh &
+	@echo "Set default shell"
+	chsh -s `which zsh`
 	@echo "FINISH."
