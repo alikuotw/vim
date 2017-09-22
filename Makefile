@@ -39,7 +39,7 @@ all:
 	@echo "Downloading oh-my-zsh"
 	wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh 
 	@echo "Install oh-my-zsh..."
-	sh install.sh
+	sh install.sh &
 	@echo "Remove install file"
 	rm install.sh
 	@echo "Set default shell"
