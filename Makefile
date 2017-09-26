@@ -39,7 +39,7 @@ zsh:
 	rm install.sh
 
 theme:
-	vim -c "%s/robbyrussell/ali/g" -c wq ~/.zshrc
-	vim -c "%s/rkj/ali/g" -c wq ~/.zshrc
+	-vim -c "%s/robbyrussell/ali/g" -c wq ~/.zshrc
+	-vim -c "%s/rkj/ali/g" -c wq ~/.zshrc
 	ln ali.zsh-theme ~/.oh-my-zsh/themes/ali.zsh-theme 
 	chsh -s `which zsh` && zsh
