@@ -41,5 +41,6 @@ zsh:
 theme:
 	-vim -c "%s/robbyrussell/ali/g" -c wq ~/.zshrc
 	-vim -c "%s/rkj/ali/g" -c wq ~/.zshrc
+	-rm ~/.oh-my-zsh/themes/ali.zsh-theme
 	ln ali.zsh-theme ~/.oh-my-zsh/themes/ali.zsh-theme 
 	chsh -s `which zsh` && zsh
