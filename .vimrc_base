@@ -58,5 +58,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Nerdtree
 Plugin 'scrooloose/nerdtree'
 
+" EditConfig
+Plugin 'editorconfig/editorconfig-vim'
+
 call vundle#end()
 filetype plugin indent on     " required!
