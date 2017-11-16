@@ -1,20 +1,33 @@
 #!/bin/bash
 
-# references http://man.linuxde.net/tput
-
-# tput setb [1-7] Set background color
-# tput setab [1-7] Set ANSI escape code background color
-# tput setf [1-7] Set font color
-# tput setaf [1-7] Set ANSI escape font color
-# tput blod 粗體
-# tput smul 底線
-# tput rev 反相
-# tput sgr0 End all mode.
-
+# add this lina to the top of file can be used. "source ali_print_format.sh"
+# format function is reference http://man.linuxde.net/tput
 # alikuotw@printFormat
 
+# tput setb
+
+#   [1-7] Set background color
+# tput setab
+
+#   [1-7] Set ANSI escape code background color
+# tput setf
+
+#   [1-7] Set font color
+# tput setaf
+
+#   [1-7] Set ANSI escape font color
+# tput blod
+
+# tput smul
+#   underline
+
+# tput rev
+
+# tput sgr0
+#   exit.
+
 ### printFormat function ###
-# $1 str
+# $1 output string
 # $2 color 0-7
 # $3 bgcolor 0-7
 # $4 bold 0-1
