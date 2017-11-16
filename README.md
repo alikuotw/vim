@@ -10,15 +10,14 @@
     
     $ make install
 
-notes: install oh my zsh
+4. Install zsh && oh-my-zsh
+    
+    $ make zsh
 
-#via curl
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" | bash
+5. Change theme
 
-( add bash if ubuntu)
+    $ make theme
 
-#via wget
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+6. Clean
 
-# default
-chsh -s which zsh
+    $ make clean
