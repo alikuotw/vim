@@ -1,5 +1,5 @@
 main:
-	ln -f ~/.vim/.vimrc_base ~/.vimrc
+	ln -f ~/.vim/vim-configs/.vimrc_base ~/.vimrc
 	@echo "*************************"
 	@echo "*                       *"
 	@echo "*      Complete !!      *"
@@ -25,7 +25,7 @@ $(Vundle):
 	fi
 
 custom:
-	ln -f ~/.vim/.vimrc_custom ~/.vimrc
+	ln -f ~/.vim/vim-configs/.vimrc_custom ~/.vimrc
 	@echo "*************************"
 	@echo "*                       *"
 	@echo "*   Complete custom.    *"
