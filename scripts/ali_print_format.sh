@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# references http://man.linuxde.net/tput
+
 # tput setb [1-7] Set background color
 # tput setab [1-7] Set ANSI escape code background color
 # tput setf [1-7] Set font color
