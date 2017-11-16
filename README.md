@@ -5,10 +5,9 @@
 
     git clone https://github.com/alikuotw/vim ~/.vim
 
-#### 2. make (can choice custom or not): ####
+#### 2. make: ####
     
     make
-    make custom
 
 #### 3. Install packages:  ####
     

@@ -24,14 +24,6 @@ $(Vundle):
 		git clone https://github.com/VundleVim/Vundle.vim.git $(Vundle); \
 	fi
 
-custom:
-	ln -f ~/.vim/vim-configs/.vimrc_custom ~/.vimrc
-	@echo "*************************"
-	@echo "*                       *"
-	@echo "*   Complete custom.    *"
-	@echo "*                       *"
-	@echo "*************************"
-
 zsh:
 	sudo apt-get install zsh -y
 	wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
