@@ -44,3 +44,6 @@ theme:
 	-rm ~/.oh-my-zsh/themes/ali.zsh-theme
 	ln ali.zsh-theme ~/.oh-my-zsh/themes/ali.zsh-theme 
 	chsh -s `which zsh` && zsh
+
+clean:
+	@rm -rf install*.sh
