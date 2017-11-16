@@ -11,16 +11,16 @@
 # tput rev 反相
 # tput sgr0 End all mode.
 
-# alikuotw@print_format
+# alikuotw@printFormat
 
-### print_format function ###
+### printFormat function ###
 # $1 str
 # $2 color 0-7
 # $3 bgcolor 0-7
 # $4 bold 0-1
 # $5 underline 0-1
 
-function print_format
+function printFormat()
 {
     str=$1
     color=$2
@@ -61,15 +61,6 @@ function print_format
     echo "${setcolor}${setbgcolor}${setbold}${setunderline}${str}${reset}"
 }
 
-function printError 
-{ 
-    print_format "$1" 1 -1 1 
-}
-
-function printInfo { 
-    print_format "$1" 2 
-}
-
-function printText { 
-    print_format "$1"
-}
+function printError() { printFormat "$1" 1 -1 1; }
+function printInfo() { printFormat "$1" 2; }
+function printText() { printFormat "$1"; }
