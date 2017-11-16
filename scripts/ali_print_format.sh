@@ -2,7 +2,6 @@
 
 # add this lina to the top of file can be used. "source ali_print_format.sh"
 # format function is reference http://man.linuxde.net/tput
-# alikuotw@printFormat
 
 # tput setb
 
