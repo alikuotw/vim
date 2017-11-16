@@ -1,23 +1,27 @@
-1. Set up vim config:
+## Install step ##
+
+
+#### 1. Set up vim config: ####
+
+    git clone https://github.com/alikuotw/vim ~/.vim
+
+#### 2. make (can choice custom or not): ####
     
-    $ git clone https://github.com/alikuotw/vim ~/.vim
+    make
+    make custom
 
-2. make (can choice custom or not)
+#### 3. Install packages:  ####
     
-    $ make (or make custom)
+    make install
 
-3. install
+#### 4. Install zsh && oh-my-zsh: ####
     
-    $ make install
+    make zsh
 
-4. Install zsh && oh-my-zsh
-    
-    $ make zsh
+#### 5. Change theme: ####
 
-5. Change theme
+    make theme
 
-    $ make theme
+#### 6. Clean: ####
 
-6. Clean
-
-    $ make clean
+    make clean
