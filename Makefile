@@ -2,7 +2,7 @@ main:
 	ln -f ~/.vim/vim-configs/.vimrc_base ~/.vimrc
 	@echo "*******************************************"
 	@echo "*                                         *"
-	@echo "*   			    Completed				 *"
+	@echo "*               Completed                 *"
 	@echo "*                                         *"
 	@echo "*******************************************"
 	@echo "*                                         *"
@@ -21,7 +21,7 @@ install: $(Vundle)
 
 	@echo "*******************************************"
 	@echo "*                                         *"
-	@echo "*   	Bundle installation is completed.    *"
+	@echo "*    Bundle installation is completed.    *"
 	@echo "*                                         *"
 	@echo "*******************************************"
 
