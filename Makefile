@@ -62,7 +62,7 @@ gitconfig:
 	@git config --global alias.ck checkout
 	@git config --global alias.l log
 	@git config --global alias.lg "log --graph --oneline all"
-	@git config --global alias.r remote -v
+	@git config --global alias.r "remote -v"
 	@git config --global alias.b branch
 	@echo "*******************************************"
 	@echo "*                                         *"
