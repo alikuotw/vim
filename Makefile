@@ -54,16 +54,19 @@ theme:
 	@echo "*******************************************"
 
 gitconfig:
+	@rm ~/.gitconfig
 	@git config --global user.name "alikuotw"
 	@git config --global user.email "alikuotw@gmail.com"
 	@git config --global core.editor vim
 	@git config --global alias.ci commit
+	@git config --global alias.cim "commit -m"
 	@git config --global alias.st status
 	@git config --global alias.ck checkout
 	@git config --global alias.l log
-	@git config --global alias.lg "log --graph --oneline all"
+	@git config --global alias.lg "log --graph --oneline"
 	@git config --global alias.r "remote -v"
 	@git config --global alias.b branch
+	@git config --global alias.d diff
 	@echo "*******************************************"
 	@echo "*                                         *"
 	@echo "*   Git config settings completed.        *"
