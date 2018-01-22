@@ -44,7 +44,7 @@ zsh:
 
 theme:
 	cp zsh/ali.zshrc ~/.zshrc
-	rm ~/.oh-my-zsh/themes/ali.zsh-theme
+	-rm ~/.oh-my-zsh/themes/ali.zsh-theme
 	ln zsh/ali.zsh-theme ~/.oh-my-zsh/themes/ali.zsh-theme
 	chsh -s `which zsh` && zsh
 	@echo "*******************************************"
