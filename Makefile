@@ -6,7 +6,8 @@ main:
 	@echo "*                                         *"
 	@echo "*******************************************"
 	@echo "*                                         *"
-	@echo "*   "make zsh" for install zsh shell.     *"
+	@echo "*   "make install" for install bundle.    *"
+	@echo "*   "make myzsh" for install zsh shell.   *"
 	@echo "*   "make theme" for install zsh theme.   *"
 	@echo "*   "make gitconfig" for git settings.    *"
 	@echo "*   "make clean" for remove install file. *"
@@ -31,7 +32,7 @@ $(Vundle):
 		git clone https://github.com/VundleVim/Vundle.vim.git $(Vundle); \
 	fi
 
-zsh:
+myzsh:
 	sudo apt-get install zsh -y
 	wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 	sh install.sh
@@ -54,7 +55,7 @@ theme:
 	@echo "*******************************************"
 
 gitconfig:
-	@rm ~/.gitconfig
+	@-rm ~/.gitconfig
 	@git config --global user.name "alikuotw"
 	@git config --global user.email "alikuotw@gmail.com"
 	@git config --global core.editor vim
