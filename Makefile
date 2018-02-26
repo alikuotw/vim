@@ -1,5 +1,6 @@
 main:
 	ln -f ~/.vim/vim-configs/.vimrc_base ~/.vimrc
+	ln -f ~/.vim/my-configs/screen/.screenrc ~/.screenrc
 	@echo "*******************************************"
 	@echo "*                                         *"
 	@echo "*               Completed                 *"
