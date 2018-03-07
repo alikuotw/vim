@@ -80,19 +80,21 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias e="sudo ifconfig $1 $2"
-alias r="route -n"
-alias pp="ping 8.8.8.8"
+# tools
+alias w="sudo wireshark"
+# screen
 alias s="screen"
 alias ss="screen -ls"
 alias sr="screen -r"
+# networking
+alias pp="ping 8.8.8.8"
+alias e="sudo ifconfig $1 $2"
+alias r="route -n"
 alias add30="sudo route add default gw 11.0.30.254"
 alias add10="sudo route add default gw 11.0.10.254"
 alias del30="sudo route del default gw 11.0.30.254"
 alias del10="sudo route del default gw 11.0.10.254"
+# ssh
 alias s51="ssh estinet@192.168.122.51"
 alias s52="ssh estinet@192.168.122.52"
 alias s11="ssh estinet@11.34.1.11"
