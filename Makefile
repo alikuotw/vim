@@ -69,6 +69,7 @@ gitconfig:
 	@git config --global alias.r "remote -v"
 	@git config --global alias.b branch
 	@git config --global alias.d diff
+	@git config --global alias.ll "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
 	@echo "*******************************************"
 	@echo "*                                         *"
 	@echo "*   Git config settings completed.        *"
