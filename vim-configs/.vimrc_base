@@ -1,15 +1,15 @@
 set encoding=utf-8
 
 syntax on 
-set ai           " 自動縮排
-set expandtab	   " 用space代替tab
-set shiftwidth=4 " 縮排數量
+set ai
+set expandtab
+set shiftwidth=4
 set tabstop=4
-set ruler        " 顯示右下角設定值
+set ruler
 set relativenumber
 set number
 set cursorline
-colorscheme molokai " 配色
+colorscheme codedark
 autocmd BufEnter *.robot colorscheme robot
 
 " NERDTree
@@ -60,6 +60,9 @@ Plugin 'scrooloose/nerdtree'
 
 " EditConfig
 Plugin 'editorconfig/editorconfig-vim'
+
+" vim theme
+Plugin 'tomasiser/vim-code-dark'
 
 call vundle#end()
 filetype plugin indent on     " required!
