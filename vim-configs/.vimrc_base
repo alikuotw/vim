@@ -9,7 +9,7 @@ set ruler
 set relativenumber
 set number
 set cursorline
-colorscheme perun
+colorscheme monokai
 autocmd BufEnter *.robot colorscheme robot
 
 " NERDTree
@@ -60,9 +60,6 @@ Plugin 'scrooloose/nerdtree'
 
 " EditConfig
 Plugin 'editorconfig/editorconfig-vim'
-
-" vim theme
-Plugin 'aradunovic/perun.vim'
 
 call vundle#end()
 filetype plugin indent on     " required!
