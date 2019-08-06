@@ -57,6 +57,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Nerdtree
 Plugin 'scrooloose/nerdtree'
+Plugin 'zxqfl/tabnine-vim'
 
 " EditConfig
 Plugin 'editorconfig/editorconfig-vim'
